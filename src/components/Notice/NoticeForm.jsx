@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import axios from '../utils/axiosInstance';
+import axios from '../utils/axiosInstance'
 import { toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';

@@ -39,6 +39,7 @@ const AppRouter = () => {
                 {path:'visitors' ,element:<VisitorList/>},
                 {path:'add-visitor', element:<VisitorForm/>},
                 {path:'emergency', element:<EmergencyForm/>},
+                {path:'emergency-list',element:<EmergencyList/>},
                 {path:'complaints', element:<ComplaintList/>},
                 {path:'add-complaint', element:<ComplaintForm/>},
                 {path:'facilities', element:<FacilityBooking/>},
