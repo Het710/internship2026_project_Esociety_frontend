@@ -15,6 +15,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const submitHandler = async (data) => {
+    const{confirmPassword,...cleanData} = req.body
     try {
       const res = await axios.post('/user/register', data);
 
